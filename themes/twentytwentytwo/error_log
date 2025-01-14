@@ -1,0 +1,8 @@
+[23-Dec-2024 07:14:21 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home2/dolphinica/public_html/wp-content/themes/twentytwentytwo/functions.php:33
+Stack trace:
+#0 {main}
+  thrown in /home2/dolphinica/public_html/wp-content/themes/twentytwentytwo/functions.php on line 33
+[23-Dec-2024 07:14:22 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home2/dolphinica/public_html/wp-content/themes/twentytwentytwo/functions.php:33
+Stack trace:
+#0 {main}
+  thrown in /home2/dolphinica/public_html/wp-content/themes/twentytwentytwo/functions.php on line 33

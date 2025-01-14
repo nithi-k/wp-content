@@ -17,6 +17,12 @@
 
 <header class="<?php echo esc_attr($class); ?>">
     <div class="container preheader-wrap">
+        
+            <?php
+echo "<!-- Using template-header-3.php -->";  // Change X to the file number (1, 2, 3, etc.)
+error_log("Header template: template-header-3.php");
+?>
+
         <!-- logo -->
         <div class="logo">
             <a href="<?php echo esc_url( home_url( '/' ) ); ?>">
