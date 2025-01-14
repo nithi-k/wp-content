@@ -62,19 +62,6 @@ add_action('wp_footer', function () {
     </script>';
 });
 
-// Optional: Language Switcher in Footer
-function language_switcher() {
-    $languages = ['en' => 'English', 'es' => 'Español'];
-    $current_lang = isset($_GET['lang']) ? sanitize_text_field($_GET['lang']) : 'en';
-    echo '<ul class="language-switcher">';
-    foreach ($languages as $key => $label) {
-        $active = $key === $current_lang ? 'class="active"' : '';
-        echo "<li $active><a href='?lang=$key'>$label</a></li>";
-    }
-    echo '</ul>';
-}
-add_action('wp_footer', 'language_switcher');
-
 add_filter('shortcode_atts_anps_featured', function($atts) {
     if (!empty($atts['title']) && has_shortcode($atts['title'])) {
         $atts['title'] = do_shortcode($atts['title']);  // Parse shortcode inside title attribute
