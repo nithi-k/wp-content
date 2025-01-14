@@ -1,0 +1,307 @@
+01-03-2024 07:29:44 - INFO  - 8.1.8 - 27.3 MB/512 MB -  > Start upgrade from 8.1.7
+01-03-2024 07:29:44 - INFO  - 8.1.8 - 27.9 MB/512 MB -  > Array
+(
+    [`wp_newsletter_emails`] => Created table `wp_newsletter_emails`
+)
+
+01-03-2024 07:29:44 - INFO  - 8.1.8 - 27.9 MB/512 MB -  > Array
+(
+    [`wp_newsletter_sent`] => Created table `wp_newsletter_sent`
+)
+
+01-03-2024 07:29:44 - INFO  - 8.1.8 - 27.9 MB/512 MB -  > Array
+(
+    [`wp_newsletter`] => Created table `wp_newsletter`
+)
+
+01-03-2024 07:29:44 - INFO  - 8.1.8 - 27.9 MB/512 MB -  > Array
+(
+    [`wp_newsletter_user_logs`] => Created table `wp_newsletter_user_logs`
+)
+
+01-03-2024 07:29:44 - INFO  - 8.1.8 - 27.9 MB/512 MB -  > Array
+(
+    [`wp_newsletter_user_meta`] => Created table `wp_newsletter_user_meta`
+)
+
+01-03-2024 07:29:44 - INFO  - 8.1.8 - 27.9 MB/512 MB -  > Array
+(
+    [`wp_newsletter_stats`] => Created table `wp_newsletter_stats`
+)
+
+01-03-2024 07:29:44 - INFO  - 8.1.8 - 27.9 MB/512 MB -  > Deleting settings backup newsletter_backup_8.1.3
+01-03-2024 07:29:44 - INFO  - 8.1.8 - 27.9 MB/512 MB -  > Backing up options of 8.1.7
+01-03-2024 07:29:44 - INFO  - 8.1.8 - 28.0 MB/512 MB -  > End
+01-03-2024 19:02:18 - INFO  - 8.1.9 - 19.8 MB/512 MB -  > Start upgrade from 8.1.8
+01-03-2024 19:02:18 - INFO  - 8.1.9 - 20.3 MB/512 MB -  > Array
+(
+    [`wp_newsletter_emails`] => Created table `wp_newsletter_emails`
+)
+
+01-03-2024 19:02:18 - INFO  - 8.1.9 - 20.3 MB/512 MB -  > Array
+(
+    [`wp_newsletter_sent`] => Created table `wp_newsletter_sent`
+)
+
+01-03-2024 19:02:18 - INFO  - 8.1.9 - 20.3 MB/512 MB -  > Array
+(
+    [`wp_newsletter`] => Created table `wp_newsletter`
+)
+
+01-03-2024 19:02:18 - INFO  - 8.1.9 - 20.3 MB/512 MB -  > Array
+(
+    [`wp_newsletter_user_logs`] => Created table `wp_newsletter_user_logs`
+)
+
+01-03-2024 19:02:18 - INFO  - 8.1.9 - 20.3 MB/512 MB -  > Array
+(
+    [`wp_newsletter_user_meta`] => Created table `wp_newsletter_user_meta`
+)
+
+01-03-2024 19:02:18 - INFO  - 8.1.9 - 20.3 MB/512 MB -  > Array
+(
+    [`wp_newsletter_stats`] => Created table `wp_newsletter_stats`
+)
+
+01-03-2024 19:02:18 - INFO  - 8.1.9 - 20.3 MB/512 MB -  > Deleting settings backup newsletter_backup_8.1.4
+01-03-2024 19:02:18 - INFO  - 8.1.9 - 20.3 MB/512 MB -  > Backing up options of 8.1.8
+01-03-2024 19:02:18 - INFO  - 8.1.9 - 20.3 MB/512 MB -  > End
+06-03-2024 19:06:17 - INFO  - 8.2.0 - 27.4 MB/512 MB -  > Start upgrade from 8.1.9
+06-03-2024 19:06:17 - INFO  - 8.2.0 - 28.0 MB/512 MB -  > Array
+(
+    [`wp_newsletter_emails`] => Created table `wp_newsletter_emails`
+)
+
+06-03-2024 19:06:17 - INFO  - 8.2.0 - 28.0 MB/512 MB -  > Array
+(
+    [`wp_newsletter_sent`] => Created table `wp_newsletter_sent`
+)
+
+06-03-2024 19:06:17 - INFO  - 8.2.0 - 28.0 MB/512 MB -  > Array
+(
+    [`wp_newsletter`] => Created table `wp_newsletter`
+)
+
+06-03-2024 19:06:17 - INFO  - 8.2.0 - 28.0 MB/512 MB -  > Array
+(
+    [`wp_newsletter_user_logs`] => Created table `wp_newsletter_user_logs`
+)
+
+06-03-2024 19:06:17 - INFO  - 8.2.0 - 28.0 MB/512 MB -  > Array
+(
+    [`wp_newsletter_user_meta`] => Created table `wp_newsletter_user_meta`
+)
+
+06-03-2024 19:06:17 - INFO  - 8.2.0 - 28.0 MB/512 MB -  > Array
+(
+    [`wp_newsletter_stats`] => Created table `wp_newsletter_stats`
+)
+
+06-03-2024 19:06:17 - INFO  - 8.2.0 - 28.0 MB/512 MB -  > Array
+(
+    [`wp_newsletter_logs`] => Created table `wp_newsletter_logs`
+)
+
+06-03-2024 19:06:17 - INFO  - 8.2.0 - 28.0 MB/512 MB -  > Deleting settings backup newsletter_backup_8.1.5
+06-03-2024 19:06:17 - INFO  - 8.2.0 - 28.0 MB/512 MB -  > Backing up options of 8.1.9
+06-03-2024 19:06:17 - INFO  - 8.2.0 - 28.1 MB/512 MB -  > End
+07-03-2024 19:34:01 - INFO  - 8.2.1 - 27.4 MB/512 MB -  > Start upgrade from 8.2.0
+07-03-2024 19:34:01 - INFO  - 8.2.1 - 28.0 MB/512 MB -  > Array
+(
+    [`wp_newsletter_emails`] => Created table `wp_newsletter_emails`
+)
+
+07-03-2024 19:34:01 - INFO  - 8.2.1 - 28.0 MB/512 MB -  > Array
+(
+    [`wp_newsletter_sent`] => Created table `wp_newsletter_sent`
+)
+
+07-03-2024 19:34:01 - INFO  - 8.2.1 - 28.1 MB/512 MB -  > Array
+(
+    [`wp_newsletter`] => Created table `wp_newsletter`
+)
+
+07-03-2024 19:34:01 - INFO  - 8.2.1 - 28.0 MB/512 MB -  > Array
+(
+    [`wp_newsletter_user_logs`] => Created table `wp_newsletter_user_logs`
+)
+
+07-03-2024 19:34:01 - INFO  - 8.2.1 - 28.0 MB/512 MB -  > Array
+(
+    [`wp_newsletter_user_meta`] => Created table `wp_newsletter_user_meta`
+)
+
+07-03-2024 19:34:01 - INFO  - 8.2.1 - 28.0 MB/512 MB -  > Array
+(
+    [`wp_newsletter_stats`] => Created table `wp_newsletter_stats`
+)
+
+07-03-2024 19:34:01 - INFO  - 8.2.1 - 28.0 MB/512 MB -  > Array
+(
+    [`wp_newsletter_logs`] => Created table `wp_newsletter_logs`
+    [wp_newsletter_logs.status] => Changed type of wp_newsletter_logs.status from int(11) to int
+)
+
+07-03-2024 19:34:01 - INFO  - 8.2.1 - 28.0 MB/512 MB -  > Deleting settings backup newsletter_backup_8.1.6
+07-03-2024 19:34:01 - INFO  - 8.2.1 - 28.0 MB/512 MB -  > Backing up options of 8.2.0
+07-03-2024 19:34:01 - INFO  - 8.2.1 - 28.1 MB/512 MB -  > End
+14-03-2024 18:53:40 - INFO  - 8.2.2 - 20.6 MB/512 MB -  > Start upgrade from 8.2.1
+14-03-2024 18:53:40 - INFO  - 8.2.2 - 20.9 MB/512 MB -  > Array
+(
+    [`wp_newsletter_emails`] => Created table `wp_newsletter_emails`
+)
+
+14-03-2024 18:53:40 - INFO  - 8.2.2 - 20.9 MB/512 MB -  > Array
+(
+    [`wp_newsletter_sent`] => Created table `wp_newsletter_sent`
+)
+
+14-03-2024 18:53:40 - INFO  - 8.2.2 - 20.9 MB/512 MB -  > Array
+(
+    [`wp_newsletter`] => Created table `wp_newsletter`
+)
+
+14-03-2024 18:53:40 - INFO  - 8.2.2 - 20.9 MB/512 MB -  > Array
+(
+    [`wp_newsletter_user_logs`] => Created table `wp_newsletter_user_logs`
+)
+
+14-03-2024 18:53:40 - INFO  - 8.2.2 - 20.9 MB/512 MB -  > Array
+(
+    [`wp_newsletter_user_meta`] => Created table `wp_newsletter_user_meta`
+)
+
+14-03-2024 18:53:40 - INFO  - 8.2.2 - 20.9 MB/512 MB -  > Array
+(
+    [`wp_newsletter_stats`] => Created table `wp_newsletter_stats`
+)
+
+14-03-2024 18:53:40 - INFO  - 8.2.2 - 20.9 MB/512 MB -  > Array
+(
+    [`wp_newsletter_logs`] => Created table `wp_newsletter_logs`
+    [wp_newsletter_logs.status] => Changed type of wp_newsletter_logs.status from int(11) to int
+)
+
+14-03-2024 18:53:40 - INFO  - 8.2.2 - 20.9 MB/512 MB -  > Deleting settings backup newsletter_backup_8.1.7
+14-03-2024 18:53:40 - INFO  - 8.2.2 - 20.9 MB/512 MB -  > Backing up options of 8.2.1
+14-03-2024 18:53:40 - INFO  - 8.2.2 - 21.0 MB/512 MB -  > End
+15-03-2024 06:56:13 - INFO  - 8.2.3 - 27.4 MB/512 MB -  > Start upgrade from 8.2.2
+15-03-2024 06:56:13 - INFO  - 8.2.3 - 28.0 MB/512 MB -  > Array
+(
+    [`wp_newsletter_emails`] => Created table `wp_newsletter_emails`
+)
+
+15-03-2024 06:56:13 - INFO  - 8.2.3 - 28.0 MB/512 MB -  > Array
+(
+    [`wp_newsletter_sent`] => Created table `wp_newsletter_sent`
+)
+
+15-03-2024 06:56:13 - INFO  - 8.2.3 - 28.0 MB/512 MB -  > Array
+(
+    [`wp_newsletter`] => Created table `wp_newsletter`
+)
+
+15-03-2024 06:56:13 - INFO  - 8.2.3 - 28.0 MB/512 MB -  > Array
+(
+    [`wp_newsletter_user_logs`] => Created table `wp_newsletter_user_logs`
+)
+
+15-03-2024 06:56:13 - INFO  - 8.2.3 - 28.0 MB/512 MB -  > Array
+(
+    [`wp_newsletter_user_meta`] => Created table `wp_newsletter_user_meta`
+)
+
+15-03-2024 06:56:13 - INFO  - 8.2.3 - 28.0 MB/512 MB -  > Array
+(
+    [`wp_newsletter_stats`] => Created table `wp_newsletter_stats`
+)
+
+15-03-2024 06:56:14 - INFO  - 8.2.3 - 28.0 MB/512 MB -  > Array
+(
+    [`wp_newsletter_logs`] => Created table `wp_newsletter_logs`
+    [wp_newsletter_logs.status] => Changed type of wp_newsletter_logs.status from int(11) to int
+)
+
+15-03-2024 06:56:14 - INFO  - 8.2.3 - 28.0 MB/512 MB -  > Deleting settings backup newsletter_backup_8.1.8
+15-03-2024 06:56:14 - INFO  - 8.2.3 - 28.0 MB/512 MB -  > Backing up options of 8.2.2
+15-03-2024 06:56:14 - INFO  - 8.2.3 - 28.1 MB/512 MB -  > End
+25-03-2024 18:37:49 - INFO  - 8.2.4 - 22.0 MB/512 MB -  > Start upgrade from 8.2.3
+25-03-2024 18:37:49 - INFO  - 8.2.4 - 22.3 MB/512 MB -  > Array
+(
+    [`wp_newsletter_emails`] => Created table `wp_newsletter_emails`
+)
+
+25-03-2024 18:37:49 - INFO  - 8.2.4 - 22.3 MB/512 MB -  > Array
+(
+    [`wp_newsletter_sent`] => Created table `wp_newsletter_sent`
+)
+
+25-03-2024 18:37:49 - INFO  - 8.2.4 - 22.3 MB/512 MB -  > Array
+(
+    [`wp_newsletter`] => Created table `wp_newsletter`
+)
+
+25-03-2024 18:37:49 - INFO  - 8.2.4 - 22.3 MB/512 MB -  > Array
+(
+    [`wp_newsletter_user_logs`] => Created table `wp_newsletter_user_logs`
+)
+
+25-03-2024 18:37:49 - INFO  - 8.2.4 - 22.3 MB/512 MB -  > Array
+(
+    [`wp_newsletter_user_meta`] => Created table `wp_newsletter_user_meta`
+)
+
+25-03-2024 18:37:49 - INFO  - 8.2.4 - 22.3 MB/512 MB -  > Array
+(
+    [`wp_newsletter_stats`] => Created table `wp_newsletter_stats`
+)
+
+25-03-2024 18:37:49 - INFO  - 8.2.4 - 22.3 MB/512 MB -  > Array
+(
+    [`wp_newsletter_logs`] => Created table `wp_newsletter_logs`
+    [wp_newsletter_logs.status] => Changed type of wp_newsletter_logs.status from int(11) to int
+)
+
+25-03-2024 18:37:49 - INFO  - 8.2.4 - 22.3 MB/512 MB -  > Deleting settings backup newsletter_backup_8.1.9
+25-03-2024 18:37:49 - INFO  - 8.2.4 - 22.3 MB/512 MB -  > Backing up options of 8.2.3
+25-03-2024 18:37:49 - INFO  - 8.2.4 - 22.4 MB/512 MB -  > End
+27-03-2024 21:46:12 - INFO  - 8.2.5 - 27.6 MB/512 MB -  > Start upgrade from 8.2.4
+27-03-2024 21:46:12 - INFO  - 8.2.5 - 28.0 MB/512 MB -  > Array
+(
+    [`wp_newsletter_emails`] => Created table `wp_newsletter_emails`
+)
+
+27-03-2024 21:46:12 - INFO  - 8.2.5 - 28.0 MB/512 MB -  > Array
+(
+    [`wp_newsletter_sent`] => Created table `wp_newsletter_sent`
+)
+
+27-03-2024 21:46:12 - INFO  - 8.2.5 - 28.0 MB/512 MB -  > Array
+(
+    [`wp_newsletter`] => Created table `wp_newsletter`
+)
+
+27-03-2024 21:46:12 - INFO  - 8.2.5 - 28.0 MB/512 MB -  > Array
+(
+    [`wp_newsletter_user_logs`] => Created table `wp_newsletter_user_logs`
+)
+
+27-03-2024 21:46:12 - INFO  - 8.2.5 - 28.0 MB/512 MB -  > Array
+(
+    [`wp_newsletter_user_meta`] => Created table `wp_newsletter_user_meta`
+)
+
+27-03-2024 21:46:12 - INFO  - 8.2.5 - 28.0 MB/512 MB -  > Array
+(
+    [`wp_newsletter_stats`] => Created table `wp_newsletter_stats`
+)
+
+27-03-2024 21:46:12 - INFO  - 8.2.5 - 28.0 MB/512 MB -  > Array
+(
+    [`wp_newsletter_logs`] => Created table `wp_newsletter_logs`
+    [wp_newsletter_logs.status] => Changed type of wp_newsletter_logs.status from int(11) to int
+)
+
+27-03-2024 21:46:12 - INFO  - 8.2.5 - 28.0 MB/512 MB -  > Deleting settings backup newsletter_backup_8.2.0
+27-03-2024 21:46:12 - INFO  - 8.2.5 - 28.0 MB/512 MB -  > Backing up options of 8.2.4
+27-03-2024 21:46:12 - INFO  - 8.2.5 - 28.1 MB/512 MB -  > End

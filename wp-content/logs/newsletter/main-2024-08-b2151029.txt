@@ -1,0 +1,2 @@
+20-08-2024 20:47:39 - FATAL - 8.4.7 - 21.6 MB/512 MB - [cron] > Delivery engine lock already set: can be due to concurrente executions or fatal error during delivery
+23-08-2024 02:00:30 - FATAL - 8.4.8 - 21.3 MB/512 MB - [cron] > Delivery engine lock already set: can be due to concurrente executions or fatal error during delivery

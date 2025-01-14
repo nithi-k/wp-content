@@ -1,0 +1,1 @@
+02-07-2022 19:56:31 - ERROR - 7.4.7 - 13.4 MB/512 MB - [cron] > Blocked by transient newsletter_main_engine set 0 seconds ago by /home2/dolphinica/public_html/;gator4148.hostgator.com

@@ -1,0 +1,66 @@
+07-11-2023 18:50:15 - INFO  - 8.0.3 - 18.0 MB/512 MB -  > Start upgrade from 8.0.2
+07-11-2023 18:50:15 - INFO  - 8.0.3 - 18.5 MB/512 MB -  > Array
+(
+    [`wp_newsletter_emails`] => Created table `wp_newsletter_emails`
+)
+
+07-11-2023 18:50:15 - INFO  - 8.0.3 - 18.5 MB/512 MB -  > Array
+(
+    [`wp_newsletter_sent`] => Created table `wp_newsletter_sent`
+)
+
+07-11-2023 18:50:15 - INFO  - 8.0.3 - 18.5 MB/512 MB -  > Array
+(
+    [`wp_newsletter`] => Created table `wp_newsletter`
+)
+
+07-11-2023 18:50:15 - INFO  - 8.0.3 - 18.5 MB/512 MB -  > Array
+(
+    [`wp_newsletter_user_logs`] => Created table `wp_newsletter_user_logs`
+)
+
+07-11-2023 18:50:15 - INFO  - 8.0.3 - 18.5 MB/512 MB -  > Array
+(
+    [`wp_newsletter_user_meta`] => Created table `wp_newsletter_user_meta`
+)
+
+07-11-2023 18:50:15 - INFO  - 8.0.3 - 18.5 MB/512 MB -  > Array
+(
+    [`wp_newsletter_stats`] => Created table `wp_newsletter_stats`
+)
+
+07-11-2023 18:50:15 - INFO  - 8.0.3 - 18.5 MB/512 MB -  > Backing up options of 8.0.2
+07-11-2023 18:50:15 - INFO  - 8.0.3 - 18.6 MB/512 MB -  > End
+14-11-2023 19:24:13 - INFO  - 8.0.4 - 26.1 MB/512 MB -  > Start upgrade from 8.0.3
+14-11-2023 19:24:13 - INFO  - 8.0.4 - 26.5 MB/512 MB -  > Array
+(
+    [`wp_newsletter_emails`] => Created table `wp_newsletter_emails`
+)
+
+14-11-2023 19:24:13 - INFO  - 8.0.4 - 26.5 MB/512 MB -  > Array
+(
+    [`wp_newsletter_sent`] => Created table `wp_newsletter_sent`
+)
+
+14-11-2023 19:24:13 - INFO  - 8.0.4 - 26.5 MB/512 MB -  > Array
+(
+    [`wp_newsletter`] => Created table `wp_newsletter`
+)
+
+14-11-2023 19:24:13 - INFO  - 8.0.4 - 26.5 MB/512 MB -  > Array
+(
+    [`wp_newsletter_user_logs`] => Created table `wp_newsletter_user_logs`
+)
+
+14-11-2023 19:24:13 - INFO  - 8.0.4 - 26.5 MB/512 MB -  > Array
+(
+    [`wp_newsletter_user_meta`] => Created table `wp_newsletter_user_meta`
+)
+
+14-11-2023 19:24:13 - INFO  - 8.0.4 - 26.5 MB/512 MB -  > Array
+(
+    [`wp_newsletter_stats`] => Created table `wp_newsletter_stats`
+)
+
+14-11-2023 19:24:13 - INFO  - 8.0.4 - 26.5 MB/512 MB -  > Backing up options of 8.0.3
+14-11-2023 19:24:13 - INFO  - 8.0.4 - 26.6 MB/512 MB -  > End

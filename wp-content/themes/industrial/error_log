@@ -1,0 +1,4 @@
+[10-Nov-2024 21:30:09 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_option() in /home2/dolphinica/public_html/wp-content/themes/industrial/404.php:2
+Stack trace:
+#0 {main}
+  thrown in /home2/dolphinica/public_html/wp-content/themes/industrial/404.php on line 2

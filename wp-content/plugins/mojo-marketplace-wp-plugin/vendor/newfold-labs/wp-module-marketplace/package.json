@@ -1,0 +1,18 @@
+{
+  "name": "@newfold-labs/wp-module-marketplace",
+  "description": "A module for rendering product data and interacting with the Hiive marketplace API.",
+  "license": "GPL-2.0-or-later",
+  "private": true,
+  "contributors": [
+    "Abdulrahman Al Ani (https://alani.dev/)",
+    "Evan Mullins (https://evanmullins.com)",
+    "Jonathan Desrosiers (https://jonathandesrosiers.com)",
+    "Micah Wood (https://wpscholar.com)",
+    "William Earnhardt (https://wearnhardt.com)"
+  ],
+  "dependencies": {
+    "@heroicons/react": "^2.1.4",
+    "@newfold/ui-component-library": "^1.1.0",
+    "uuid": "^9.0.1"
+  }
+}

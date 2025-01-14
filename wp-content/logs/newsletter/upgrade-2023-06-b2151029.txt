@@ -1,0 +1,253 @@
+07-06-2023 07:59:45 - INFO  - 7.8.0 - 16.3 MB/512 MB -  > Start upgrade from 7.0.0
+07-06-2023 07:59:45 - INFO  - 7.8.0 - 16.7 MB/512 MB -  > Array
+(
+    [`wp_newsletter_emails`] => Created table `wp_newsletter_emails`
+)
+
+07-06-2023 07:59:45 - INFO  - 7.8.0 - 16.7 MB/512 MB -  > Array
+(
+    [`wp_newsletter_sent`] => Created table `wp_newsletter_sent`
+)
+
+07-06-2023 07:59:45 - INFO  - 7.8.0 - 16.7 MB/512 MB -  > Array
+(
+    [`wp_newsletter`] => Created table `wp_newsletter`
+    [wp_newsletter.source] => Added column wp_newsletter.source
+)
+
+07-06-2023 07:59:45 - INFO  - 7.8.0 - 16.7 MB/512 MB -  > Array
+(
+    [`wp_newsletter_user_logs`] => Created table `wp_newsletter_user_logs`
+)
+
+07-06-2023 07:59:45 - INFO  - 7.8.0 - 16.7 MB/512 MB -  > Array
+(
+    [`wp_newsletter_stats`] => Created table `wp_newsletter_stats`
+)
+
+07-06-2023 07:59:45 - INFO  - 7.8.0 - 16.7 MB/512 MB -  > Migration to 7.8.0
+07-06-2023 07:59:45 - INFO  - 7.8.0 - 16.8 MB/512 MB -  > Backing up options of 7.0.0
+07-06-2023 07:59:45 - INFO  - 7.8.0 - 17.0 MB/512 MB -  > End
+07-06-2023 19:23:29 - INFO  - 7.8.2 - 16.8 MB/512 MB -  > Start upgrade from 7.8.0
+07-06-2023 19:23:29 - INFO  - 7.8.2 - 17.3 MB/512 MB -  > Array
+(
+    [`wp_newsletter_emails`] => Created table `wp_newsletter_emails`
+)
+
+07-06-2023 19:23:29 - INFO  - 7.8.2 - 17.3 MB/512 MB -  > Array
+(
+    [`wp_newsletter_sent`] => Created table `wp_newsletter_sent`
+)
+
+07-06-2023 19:23:29 - INFO  - 7.8.2 - 17.3 MB/512 MB -  > Array
+(
+    [`wp_newsletter`] => Created table `wp_newsletter`
+)
+
+07-06-2023 19:23:29 - INFO  - 7.8.2 - 17.3 MB/512 MB -  > Array
+(
+    [`wp_newsletter_user_logs`] => Created table `wp_newsletter_user_logs`
+)
+
+07-06-2023 19:23:29 - INFO  - 7.8.2 - 17.3 MB/512 MB -  > Array
+(
+    [`wp_newsletter_stats`] => Created table `wp_newsletter_stats`
+)
+
+07-06-2023 19:23:29 - INFO  - 7.8.2 - 17.3 MB/512 MB -  > Backing up options of 7.8.0
+07-06-2023 19:23:29 - INFO  - 7.8.2 - 17.3 MB/512 MB -  > End
+08-06-2023 18:50:49 - INFO  - 7.8.3 - 16.4 MB/512 MB -  > Start upgrade from 7.8.2
+08-06-2023 18:50:49 - INFO  - 7.8.3 - 16.8 MB/512 MB -  > Array
+(
+    [`wp_newsletter_emails`] => Created table `wp_newsletter_emails`
+)
+
+08-06-2023 18:50:49 - INFO  - 7.8.3 - 16.8 MB/512 MB -  > Array
+(
+    [`wp_newsletter_sent`] => Created table `wp_newsletter_sent`
+)
+
+08-06-2023 18:50:49 - INFO  - 7.8.3 - 16.8 MB/512 MB -  > Array
+(
+    [`wp_newsletter`] => Created table `wp_newsletter`
+)
+
+08-06-2023 18:50:49 - INFO  - 7.8.3 - 16.8 MB/512 MB -  > Array
+(
+    [`wp_newsletter_user_logs`] => Created table `wp_newsletter_user_logs`
+)
+
+08-06-2023 18:50:49 - INFO  - 7.8.3 - 16.8 MB/512 MB -  > Array
+(
+    [`wp_newsletter_stats`] => Created table `wp_newsletter_stats`
+)
+
+08-06-2023 18:50:49 - INFO  - 7.8.3 - 16.8 MB/512 MB -  > Backing up options of 7.8.2
+08-06-2023 18:50:49 - INFO  - 7.8.3 - 16.9 MB/512 MB -  > End
+10-06-2023 18:46:59 - INFO  - 7.8.4 - 35.5 MB/512 MB -  > Start upgrade from 7.8.3
+10-06-2023 18:46:59 - INFO  - 7.8.4 - 42.0 MB/512 MB -  > Start upgrade from 7.8.3
+10-06-2023 18:46:59 - INFO  - 7.8.4 - 42.7 MB/512 MB -  > Array
+(
+    [`wp_newsletter_emails`] => Created table `wp_newsletter_emails`
+)
+
+10-06-2023 18:46:59 - INFO  - 7.8.4 - 38.5 MB/512 MB -  > Array
+(
+    [`wp_newsletter_emails`] => Created table `wp_newsletter_emails`
+)
+
+10-06-2023 18:46:59 - INFO  - 7.8.4 - 38.5 MB/512 MB -  > Array
+(
+    [`wp_newsletter_sent`] => Created table `wp_newsletter_sent`
+)
+
+10-06-2023 18:46:59 - INFO  - 7.8.4 - 42.7 MB/512 MB -  > Array
+(
+    [`wp_newsletter_sent`] => Created table `wp_newsletter_sent`
+)
+
+10-06-2023 18:46:59 - INFO  - 7.8.4 - 38.5 MB/512 MB -  > Array
+(
+    [`wp_newsletter`] => Created table `wp_newsletter`
+)
+
+10-06-2023 18:46:59 - INFO  - 7.8.4 - 42.8 MB/512 MB -  > Array
+(
+    [`wp_newsletter`] => Created table `wp_newsletter`
+)
+
+10-06-2023 18:46:59 - INFO  - 7.8.4 - 42.7 MB/512 MB -  > Array
+(
+    [`wp_newsletter_user_logs`] => Created table `wp_newsletter_user_logs`
+)
+
+10-06-2023 18:46:59 - INFO  - 7.8.4 - 42.7 MB/512 MB -  > Array
+(
+    [`wp_newsletter_stats`] => Created table `wp_newsletter_stats`
+)
+
+10-06-2023 18:46:59 - INFO  - 7.8.4 - 38.5 MB/512 MB -  > Array
+(
+    [`wp_newsletter_user_logs`] => Created table `wp_newsletter_user_logs`
+)
+
+10-06-2023 18:46:59 - INFO  - 7.8.4 - 42.7 MB/512 MB -  > Backing up options of 7.8.3
+10-06-2023 18:46:59 - INFO  - 7.8.4 - 38.5 MB/512 MB -  > Array
+(
+    [`wp_newsletter_stats`] => Created table `wp_newsletter_stats`
+)
+
+10-06-2023 18:46:59 - INFO  - 7.8.4 - 42.8 MB/512 MB -  > End
+10-06-2023 18:46:59 - INFO  - 7.8.4 - 38.5 MB/512 MB -  > End
+14-06-2023 18:38:07 - INFO  - 7.8.5 - 17.7 MB/512 MB -  > Start upgrade from 7.8.4
+14-06-2023 18:38:07 - INFO  - 7.8.5 - 18.1 MB/512 MB -  > Array
+(
+    [`wp_newsletter_emails`] => Created table `wp_newsletter_emails`
+)
+
+14-06-2023 18:38:07 - INFO  - 7.8.5 - 18.1 MB/512 MB -  > Array
+(
+    [`wp_newsletter_sent`] => Created table `wp_newsletter_sent`
+)
+
+14-06-2023 18:38:07 - INFO  - 7.8.5 - 18.1 MB/512 MB -  > Array
+(
+    [`wp_newsletter`] => Created table `wp_newsletter`
+)
+
+14-06-2023 18:38:07 - INFO  - 7.8.5 - 18.1 MB/512 MB -  > Array
+(
+    [`wp_newsletter_user_logs`] => Created table `wp_newsletter_user_logs`
+)
+
+14-06-2023 18:38:07 - INFO  - 7.8.5 - 18.1 MB/512 MB -  > Array
+(
+    [`wp_newsletter_stats`] => Created table `wp_newsletter_stats`
+)
+
+14-06-2023 18:38:07 - INFO  - 7.8.5 - 18.1 MB/512 MB -  > Backing up options of 7.8.4
+14-06-2023 18:38:07 - INFO  - 7.8.5 - 18.2 MB/512 MB -  > End
+21-06-2023 18:49:01 - INFO  - 7.8.6 - 16.4 MB/512 MB -  > Start upgrade from 7.8.5
+21-06-2023 18:49:02 - INFO  - 7.8.6 - 16.9 MB/512 MB -  > Array
+(
+    [`wp_newsletter_emails`] => Created table `wp_newsletter_emails`
+)
+
+21-06-2023 18:49:02 - INFO  - 7.8.6 - 16.9 MB/512 MB -  > Array
+(
+    [`wp_newsletter_sent`] => Created table `wp_newsletter_sent`
+)
+
+21-06-2023 18:49:02 - INFO  - 7.8.6 - 16.9 MB/512 MB -  > Array
+(
+    [`wp_newsletter`] => Created table `wp_newsletter`
+)
+
+21-06-2023 18:49:02 - INFO  - 7.8.6 - 16.9 MB/512 MB -  > Array
+(
+    [`wp_newsletter_user_logs`] => Created table `wp_newsletter_user_logs`
+)
+
+21-06-2023 18:49:02 - INFO  - 7.8.6 - 16.9 MB/512 MB -  > Array
+(
+    [`wp_newsletter_stats`] => Created table `wp_newsletter_stats`
+)
+
+21-06-2023 18:49:02 - INFO  - 7.8.6 - 16.9 MB/512 MB -  > Backing up options of 7.8.5
+21-06-2023 18:49:02 - INFO  - 7.8.6 - 17.0 MB/512 MB -  > End
+23-06-2023 07:02:46 - INFO  - 7.8.7 - 23.2 MB/512 MB -  > Start upgrade from 7.8.6
+23-06-2023 07:02:46 - INFO  - 7.8.7 - 23.8 MB/512 MB -  > Array
+(
+    [`wp_newsletter_emails`] => Created table `wp_newsletter_emails`
+)
+
+23-06-2023 07:02:46 - INFO  - 7.8.7 - 23.8 MB/512 MB -  > Array
+(
+    [`wp_newsletter_sent`] => Created table `wp_newsletter_sent`
+)
+
+23-06-2023 07:02:46 - INFO  - 7.8.7 - 23.8 MB/512 MB -  > Array
+(
+    [`wp_newsletter`] => Created table `wp_newsletter`
+)
+
+23-06-2023 07:02:46 - INFO  - 7.8.7 - 23.8 MB/512 MB -  > Array
+(
+    [`wp_newsletter_user_logs`] => Created table `wp_newsletter_user_logs`
+)
+
+23-06-2023 07:02:46 - INFO  - 7.8.7 - 23.8 MB/512 MB -  > Array
+(
+    [`wp_newsletter_stats`] => Created table `wp_newsletter_stats`
+)
+
+23-06-2023 07:02:46 - INFO  - 7.8.7 - 23.8 MB/512 MB -  > Backing up options of 7.8.6
+23-06-2023 07:02:46 - INFO  - 7.8.7 - 23.8 MB/512 MB -  > End
+29-06-2023 06:40:14 - INFO  - 7.8.8 - 16.5 MB/512 MB -  > Start upgrade from 7.8.7
+29-06-2023 06:40:14 - INFO  - 7.8.8 - 16.7 MB/512 MB -  > Array
+(
+    [`wp_newsletter_emails`] => Created table `wp_newsletter_emails`
+)
+
+29-06-2023 06:40:14 - INFO  - 7.8.8 - 16.7 MB/512 MB -  > Array
+(
+    [`wp_newsletter_sent`] => Created table `wp_newsletter_sent`
+)
+
+29-06-2023 06:40:14 - INFO  - 7.8.8 - 16.7 MB/512 MB -  > Array
+(
+    [`wp_newsletter`] => Created table `wp_newsletter`
+)
+
+29-06-2023 06:40:14 - INFO  - 7.8.8 - 16.7 MB/512 MB -  > Array
+(
+    [`wp_newsletter_user_logs`] => Created table `wp_newsletter_user_logs`
+)
+
+29-06-2023 06:40:14 - INFO  - 7.8.8 - 16.7 MB/512 MB -  > Array
+(
+    [`wp_newsletter_stats`] => Created table `wp_newsletter_stats`
+)
+
+29-06-2023 06:40:14 - INFO  - 7.8.8 - 16.7 MB/512 MB -  > Backing up options of 7.8.7
+29-06-2023 06:40:14 - INFO  - 7.8.8 - 16.8 MB/512 MB -  > End
