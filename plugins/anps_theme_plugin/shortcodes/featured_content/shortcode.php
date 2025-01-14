@@ -6,7 +6,7 @@ if(!function_exists('anps_featured_content_func')) {
             'image_u' => '',
             'link' => '',
             'link_target' => '_self',
-            'button_text' => esc_html__('Read more', 'anps_theme_plugin'),
+            'button_text' => '',  // Removed default hardcoded "Read more"
             'video' => '',
             'absolute_img' =>'',
             'exposed' =>'',
@@ -16,6 +16,13 @@ if(!function_exists('anps_featured_content_func')) {
             'icon_custom_hover' => '',
             'style' => ''
         ), $atts ) );
+
+        // NEW: Load translation for button text if not provided in shortcode
+        if (!$button_text) {
+            $lang = !empty($_GET['lang']) ? sanitize_text_field($_GET['lang']) : 'en';  // Detect language from URL
+            $translations = load_language_strings($lang);  // Load translations
+            $button_text = isset($translations['read_more']) ? esc_html($translations['read_more']) : esc_html__('Read more', 'anps_theme_plugin');  // NEW: Use translated text
+        }
 
         if($image_u) {
             $image = wp_get_attachment_image_src($image_u, 'anps-featured');
@@ -109,8 +116,9 @@ if(!function_exists('anps_featured_content_func')) {
         if($content!="") {
         $output .= "<p class='featured-desc'>$content</p>";
         }
-        if($link!="") {
-            $output .= "<a class='btn btn-md btn-minimal' target='$link_target' href='$link'>$button_text</a>";
+        // NEW: Use translated button text for the "Read More" button
+        if ($link != "") {
+            $output .= "<a class='btn btn-md btn-minimal' target='$link_target' href='$link'>$button_text</a>";  // Display localized "Read More" text
         }
         if($lightbox!="") {
             if($video=='' && $image!='') {

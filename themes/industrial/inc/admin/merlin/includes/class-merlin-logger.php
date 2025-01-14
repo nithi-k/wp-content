@@ -191,5 +191,5 @@ class Merlin_Logger {
 	 *
 	 * @return void
 	 */
-	public function __wakeup() {}
+	private function __wakeup() {}
 }

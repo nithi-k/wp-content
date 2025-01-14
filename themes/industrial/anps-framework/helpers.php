@@ -633,6 +633,7 @@ if (!function_exists('anps_get_menu')) {
         <div class="mobile-wrap">
             <button class="burger"><span class="burger-top"></span><span class="burger-middle"></span><span class="burger-bottom"></span></button>
             <?php
+            echo "<anps_get_menu custom>";
             /* Include mobile search (check if it is enabled for mobile) */
             if (get_option('anps_global_search_icon_mobile', '1') == '1') {
                 anps_mobile_search();

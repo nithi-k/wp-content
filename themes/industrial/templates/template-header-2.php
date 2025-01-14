@@ -1,5 +1,10 @@
 <!-- VERTICAL MENU HEADER TYPE -->
 <header class="site-header vertical">
+    
+        <?php
+echo "<!-- Using template-header-2.php -->";  // Change X to the file number (1, 2, 3, etc.)
+error_log("Header template: template-header-2.php");
+?>
     <div class="container">
         <div class="header-wrap clearfix">
             <!-- logo -->

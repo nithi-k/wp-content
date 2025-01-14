@@ -1,12 +1,40 @@
-/*
-Theme Name: Industrial
-Theme URI: http://anpsthemes.com/industrial/
-Description: It can be used for business and corporate sites, your portfolio site or customize it to suit your wishes. Easy to use and clean code will be a simple task to get you up and running in no time. And with our support you cannot go wrong.
-Author: AnpsThemes
-Author URI: http://themeforest.net/user/Anps/portfolio
-Version: 1.6.1
-License: GNU General Public License
-License URI: license.txt
-Text Domain: industrial
-Tags: one-column, two-columns, three-columns, four-columns, left-sidebar, custom-colors, custom-header, custom-menu, theme-options, translation-ready, threaded-comments
-*/
+.language-switcher-container {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.language-switcher {
+    position: relative;
+    cursor: pointer;
+}
+
+.language-switcher .sub-menu {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: white;
+    list-style: none;
+    padding: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+}
+
+.language-switcher:hover .sub-menu {
+    display: block;
+}
+
+.language-switcher img {
+    width: 24px;
+    height: 16px;
+    margin-right: 8px;
+}
+
+.language-switcher a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.language-switcher .current-lang {
+    font-weight: bold;
+}
