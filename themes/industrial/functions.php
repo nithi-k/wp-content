@@ -81,6 +81,28 @@ add_shortcode('localized_featured', function($atts, $content = null) {
     return do_shortcode("[anps_featured title=\"$title\" link=\"{$atts['link']}\" image_u=\"{$atts['image_u']}\"]{$content}[/anps_featured]");
 });
 
+add_action('wp_footer', function () {
+    ?>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Get the current language from the URL
+            const currentLang = new URLSearchParams(window.location.search).get('lang');
+            
+            if (currentLang) {
+                // Append ?lang=<selected_lang> to all internal links
+                const links = document.querySelectorAll('a[href]');
+                links.forEach(link => {
+                    const url = new URL(link.href, window.location.origin);
+                    if (url.origin === window.location.origin) {
+                        url.searchParams.set('lang', currentLang);
+                        link.href = url.toString();
+                    }
+                });
+            }
+        });
+    </script>
+    <?php
+});
 
 /* [END] updating localize */
 
