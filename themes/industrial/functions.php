@@ -85,15 +85,23 @@ add_action('wp_footer', function () {
     ?>
     <script>
         document.addEventListener("DOMContentLoaded", function () {
-            // Get the current language from the URL
             const currentLang = new URLSearchParams(window.location.search).get('lang');
-            
+
             if (currentLang) {
-                // Append ?lang=<selected_lang> to all internal links
                 const links = document.querySelectorAll('a[href]');
+                
+                // Handle clicks on language dropdown links
+                document.querySelectorAll('.menu-lang-dropdown a').forEach(langLink => {
+                    langLink.addEventListener('click', function (event) {
+                        // Allow language switching without appending ?lang=<selected_lang>
+                        event.stopPropagation();
+                    });
+                });
+
+                // Append ?lang=<selected_lang> to all other internal links
                 links.forEach(link => {
                     const url = new URL(link.href, window.location.origin);
-                    if (url.origin === window.location.origin) {
+                    if (url.origin === window.location.origin && !link.closest('.menu-lang-dropdown')) {
                         url.searchParams.set('lang', currentLang);
                         link.href = url.toString();
                     }
@@ -103,6 +111,7 @@ add_action('wp_footer', function () {
     </script>
     <?php
 });
+
 
 /* [END] updating localize */
 

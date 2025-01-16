@@ -5,8 +5,8 @@ function anps_language_dropdown() {
 
     // Define your language options with flags
     $languages = [
-        'en' => ['name' => 'English', 'flag' => get_template_directory_uri() . '/anps-framework/assets/flags/en.png'],
-        'th' => ['name' => 'ภาษาไทย', 'flag' => get_template_directory_uri() . '/anps-framework/assets/flags/th.png'],
+        'en' => ['name' => 'English', 'flag' => get_template_directory_uri() . '/assets/flags/en.png'],
+        'th' => ['name' => 'ภาษาไทย', 'flag' => get_template_directory_uri() . '/assets/flags/th.png'],
         // Add more languages here if needed
     ];
 
