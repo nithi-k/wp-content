@@ -93,6 +93,19 @@ add_shortcode('localized_vc_tta_section', function($atts, $content = null) {
     return do_shortcode("[vc_tta_section title=\"$title\" tab_id=\"{$atts['tab_id']}\"]{$content}[/vc_tta_section]");
 });
 
+// Localized vc_toggle
+add_shortcode('localized_vc_toggle', function($atts, $content = null) {
+    $atts = shortcode_atts(['title_key' => '', 'style' => '', 'open' => 'false', 'css' => '', 'el_id' => ''], $atts);
+    $lang = !empty($_GET['lang']) ? sanitize_text_field($_GET['lang']) : 'en';  // Detect language from URL
+    $translations = load_language_strings($lang);  // Load translations
+
+    // Get the localized title or fallback to the key itself
+    $title = isset($translations[$atts['title_key']]) ? esc_html($translations[$atts['title_key']]) : $atts['title_key'];
+
+    // Return localized [vc_toggle] shortcode
+    return do_shortcode("[vc_toggle title=\"$title\" style=\"{$atts['style']}\" open=\"{$atts['open']}\" css=\"{$atts['css']}\" el_id=\"{$atts['el_id']}\"]{$content}[/vc_toggle]");
+});
+
 add_action('wp_footer', function () {
     ?>
     <script>
