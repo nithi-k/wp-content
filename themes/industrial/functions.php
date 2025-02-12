@@ -81,6 +81,25 @@ add_shortcode('localized_featured', function($atts, $content = null) {
     return do_shortcode("[anps_featured title=\"$title\" link=\"{$atts['link']}\" image_u=\"{$atts['image_u']}\"]{$content}[/anps_featured]");
 });
 
+function localized_vc_tta_section($atts, $content = null) {
+    $atts = shortcode_atts(['title' => '', 'tab_id' => ''], $atts);
+    $lang = !empty($_GET['lang']) ? sanitize_text_field($_GET['lang']) : 'en';  // Detect language
+    $translations = load_language_strings($lang);  // Load translations
+
+    // Extract translation key from title if it follows `{translate key='...'}` format
+    if (preg_match("/\{translate key='([^']+)'\}/", $atts['title'], $matches)) {
+        $title_key = $matches[1];
+        $title = isset($translations[$title_key]) ? esc_html($translations[$title_key]) : $title_key;
+    } else {
+        $title = esc_html($atts['title']); // Use title as-is if no translation key is found
+    }
+
+    // Return the processed shortcode with the localized title
+    return do_shortcode("[vc_tta_section title=\"$title\" tab_id=\"{$atts['tab_id']}\"]{$content}[/vc_tta_section]");
+}
+// Register the new shortcode
+add_shortcode('localized_vc_tta_section', 'localized_vc_tta_section');
+
 add_action('wp_footer', function () {
     ?>
     <script>
