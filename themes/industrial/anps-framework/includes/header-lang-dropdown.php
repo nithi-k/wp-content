@@ -6,7 +6,9 @@ function anps_language_dropdown() {
     // Define your language options with flags
     $languages = [
         'en' => ['name' => 'English', 'flag' => get_template_directory_uri() . '/assets/flags/en.png'],
-        'th' => ['name' => 'ภาษาไทย', 'flag' => get_template_directory_uri() . '/assets/flags/th.png'],
+        'zh_cn' => ['name' => '中文 ', 'flag' => get_template_directory_uri() . '/assets/flags/zh_cn.png'],
+        'rus' => ['name' => 'Русский', 'flag' => get_template_directory_uri() . '/assets/flags/rus.png'],
+        'th' => ['name' => 'ภาษาไทย', 'flag' => get_template_directory_uri() . '/assets/flags/th.png']
         // Add more languages here if needed
     ];
 
